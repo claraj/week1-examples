@@ -1,0 +1,55 @@
+/*Select everything */
+body {
+    font-family: monospace;
+    font-size: 16px
+}
+
+
+/*Select all of the p tags */
+p {
+    background-color: aquamarine;
+}
+
+/*Select all of the h2 tags */
+h2 {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*Select only div tags with class="city_data" */
+div.city_data {
+    border-width: 1px;
+    border-style: solid;
+    background-color: gray;
+
+    padding: 15px;
+    margin: 10px;
+}
+
+/*Select only div tags with class="city_fact" */
+div.city_fact {
+    color : orangered;
+}
+
+/*Select only div tags with class="links" */
+div.links {
+    background-color: purple;
+}
+
+/*Select only links within div class="links"  */
+div.links a:link, div.links a:visited {
+    color:orange;
+}
+
+/* This selectors apply to the element id="newyork" */
+#newyork {
+    color: red
+}
+
+#cairo {
+    color: blue
+}
+
+#london {
+    color: deeppink;
+}
